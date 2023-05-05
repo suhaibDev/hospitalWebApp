@@ -141,7 +141,7 @@ header{
   width: 99vw;
   box-sizing: border-box;
   height: 75vh;
-  background-image: url('images/ban1.jpeg')
+  background-image: url('https://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/revslider/homeslider1/slideshow-home-1.jpg')
 
 }
 
@@ -189,12 +189,12 @@ header{
 .card-container>section{
   border: 1px solid gainsboro;
   padding: 10px;
-  min-height: 17vh;
-  height: auto;
+  height: 17vh;
 }
 
 .image {
   height: 200px;
+  background-image: url('/images/image1.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -263,11 +263,4 @@ header{
 
 .card-container>section>h3{
   color: #0d2e5a;
-}
-
-.doctor-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin-top: 40px;
 }

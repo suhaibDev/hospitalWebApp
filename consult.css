@@ -1,0 +1,71 @@
+.bannerDoc{
+    width: 100%;
+    height: 10vh;
+    background-image: url("/images/doctorBanner.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 5vh 10vw;
+}
+
+.bannerDoc>h2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.contentDoc{
+    padding: 10vh 10vw;
+}
+
+.doctor1{
+    background-image: url("images/doctors/doctor1.jpeg") ;
+}
+
+.doctor2{
+    background-image: url("images/doctors/doctor2.jpeg") ;
+}
+.formContainer{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formContainer>section{
+    padding-right: 5vw;
+}
+
+.formContainer>section:nth-child(1)>p{
+    color: rgb(146, 146, 146);
+    font-size: medium;
+    line-height: 30px;
+    width: 100%;
+}
+
+.formContainer>section:nth-child(1)>a{
+    color: rgb(146, 146, 146);
+    font-size: medium;
+    display: block;
+    line-height: 30px;
+}
+
+.formContainer>section:nth-child(2)>form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form>label{
+    line-height: 40px;
+    color: rgb(146, 146, 146);
+}
+
+form>input{
+    padding: 10px;
+}
+
+form>a>button{
+    margin: 40px 0;
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(14, 50, 14);
+    color:white;
+}

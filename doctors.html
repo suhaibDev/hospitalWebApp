@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib's Hospital | Doctors</title>
+  <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="doctor.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <header>
+    <div class="banner">    
+        <a href="/home.html">
+            <img id="logo" src="/images/logo.png" alt="logo" />
+            <p>Suhaib Hospital</p>
+        </a>
+    </div>
+    <nav id="navList">
+      <ul >
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/doctors.html">Doctors</a></li>
+        <li><a href="/consult.html">Consult</a></li>
+      </ul>
+    </nav>
+    <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
+    <a id="logoutBtn" onClick="logOut()">
+      <p id="userNames"></p>
+      <button id="signOutBtn">Log Out</button>
+    </a>
+  </header>
+  <main>
+    <section class="bannerDoc">
+      <h2>Doctors</h2>
+    </section>
+  </main>
+  <div class="contentDoc">
+    <h3>Our Expert Doctors</h3>
+    <div class="doctor-container">
+        <div class="card-container">
+          <div class="doctor1 image"></div>
+          <section>
+            <h3>Dr.Veranda Tanumihardja</h3>
+            <p style="font-size: 16px; color: gainsboro; margin: 1px;">Pulmonary</p>
+            <p>Veranda was born and raised in Jakarta, Indonesia. He graduated from the University of....</p>
+          </section>
+        </div>
+        <div class="card-container">
+          <div class="doctor2 image"></div>
+          <section>
+            <h3>Dr. Kathryn Wood</h3>
+            <p style="font-size: 16px; color: gainsboro; margin: 1px;">Pulmonary</p>
+            <p>Kathryn was born and raised in Indonesia, North Way Indonesia He graduated from the University</p>
+          </section>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <section>
+     
+      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png" alt="logo" /></a> @2023 copyright Suhaib hospital</p>
+      <p>Designed by suhaib222@gmail.com</p>
+    </section>
+  </footer>
+  <script src="home.js" ></script>
+</body>
+</html>

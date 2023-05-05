@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib's Hospital | Home</title>
+  <link rel="shortcut icon" href="./background1_files/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./background1_files/home.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://pldlfgnilfdheajekfphjkjeooignhkc/css/general.css"></head>
+<body data-new-gr-c-s-check-loaded="14.1107.0" data-gr-ext-installed="">
+  <header>
+    <div class="banner">    
+        <a href="http://127.0.0.1:5500/home.html">
+            <img id="logo" src="./background1_files/logo.png" alt="logo">
+            <p>Suhaib Hospital</p>
+        </a>
+    </div>
+    <nav id="navList" style="display: block;">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>
+        <li><a href="http://127.0.0.1:5500/doctors.html">Doctors</a></li>
+        <li><a href="http://127.0.0.1:5500/consult.html">Consult</a></li>
+      </ul>
+    </nav>
+    <a id="loginBtn" href="http://127.0.0.1:5500/login.html" style="display: none;"><button id="signBtn">Login</button></a>
+    <a id="logoutBtn" onclick="logOut()" style="display: flex;">
+      <p id="userNames">M Suhaib</p>
+      <button id="signOutBtn">Log Out</button>
+    </a>
+  </header>
+  
+  <main>
+    <div class="slide"></div>
+    
+  </main>
+
+  <div class="content">
+    <h2>Our Services</h2>
+    <p>Our hospital is a medical facility that provides a wide range of healthcare services to patients who require medical attention. When creating a webpage for a hospital, it is important to highlight the hospital's services in a clear and concise manner. Here are some services that a typical hospital might offer:</p>
+  </div>
+  <div class="department">
+    <h2>HOSPITAL DEPARTMENTS</h2>
+    <div class="cardBox">
+      <div class="card-container">
+        <div class="image1 image"></div>
+        <section>
+          <h3>Cardiology</h3>
+          <p>Here's the story of a lovely lady, who was bringing up three very lovely...</p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image2"></div>
+        <section>
+          <h3>Dental </h3>
+          <p>We never thought of findin' a place where we belong. Don't have to stand...</p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image3"></div>
+        <section>
+          <h3>Neurologist</h3>
+          <p>We never thought of findin' a place where we belong. Don't have to stand...
+          </p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image4"></div>
+        <section>
+          <h3>Pediatric</h3>
+          <p>You unlock this door with the key of imagination. Beyond it is another dimension:...            .</p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image5"></div>
+        <section>
+          <h3>Xray</h3>
+          <p>One thousand years ago, superstition and the sword ruled. It was a time of...          </p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image6"></div>
+        <section>
+          <h3>Pulmunary</h3>
+          <p>Life is like a hurricane here in Duckburg. Race cars, lasers, aeroplanes - it's...          </p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image7"></div>
+        <section>
+          <h3>Urology</h3>
+          <p>Your tread must be light and sure, as though your path were upon rice...
+          </p>
+        </section>
+      </div>
+      <div class="card-container">
+        <div class="image image8"></div>
+        <section>
+          <h3>Trumatology</h3>
+          <p>They're creepy and they're kooky, mysterious and spooky. They're all together ooky, the Addams...
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <section>
+     
+      <p style="display:flex; align-items: center; gap:10px"> <a href="http://127.0.0.1:5500/home.html"><img id="logo" src="./background1_files/logo.png" alt="logo"></a> @2023 copyright Suhaib hospital</p>
+      <p>Designed by suhaib222@gmail.com</p>
+    </section>
+  </footer>
+  <script src="./background1_files/home.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib's Hospital | Consultation</title>
+  <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="consult.css">
+</head>
+<body>
+  <header>
+    <div class="banner">    
+        <a href="/home.html">
+            <img id="logo" src="/images/logo.png" alt="logo" />
+            <p>Suhaib Hospital</p>
+        </a>
+    </div>
+    <nav id="navList">
+      <ul >
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/doctors.html">Doctors</a></li>
+        <li><a href="/consult.html">Consult</a></li>
+      </ul>
+    </nav>
+    <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
+    <a id="logoutBtn" onClick="logOut()">
+      <p id="userNames"></p>
+      <button id="signOutBtn">Log Out</button>
+    </a>
+  </header>
+  <main>
+    <section class="bannerDoc">
+      <h2>Book Consulation</h2>
+    </section>
+  </main>
+  <div class="contentDoc">
+    <h3>Book your appointment</h3>
+
+    <div class="formContainer">
+        <section>
+            <h2>Get in touch</h2>
+            <p>
+                This is Herman Brooks. Herman is just like the rest of us. Everyday he has to make all kinds of decisions like what to wear, whom to date and when to panic.
+            </p>
+            <p>
+                Now these decisions should be easy but if you take a look inside Herman’s head, you’ll see why he sometimes has trouble making up his mind. Sometimes they agree… usually they don’t. But the struggle is going on inside all of us and it’s all going on inside Herman’s head.
+            </p>
+            <h4>CONTACT INFO
+            </h4>
+            <a>info@hospitalplus.com</a>
+            <a>+3212345678</a>
+        </section>
+        <section>
+            <form onsubmit="consult()">
+                <label>Full Name</label>
+                <input name="fullname" id="fullname" placeholder="Enter your name"  required/>
+                <label>Email Address</label>
+                <input name="email" id="email" placeholder="Enter your email address" required />
+                <label>Contact</label>
+                <input name="contact" id="contact" placeholder="Enter your contact details" required />
+                <label>Message</label>
+                <textarea rows="6"></textarea>
+                <a href="#"> <button type="submit">Submit</button></a>
+            </form>
+        </section>
+    </div>
+
+  </div>
+  <footer>
+    <section>
+      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png" alt="logo" /></a> @2023 copyright Suhaib hospital</p>
+      <p>Designed by suhaib222@gmail.com</p>
+    </section>
+  </footer>
+  <script src="consult.js" ></script>
+</body>
+</html>
