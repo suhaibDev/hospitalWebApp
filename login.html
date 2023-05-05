@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhaib's Hospital | Login</title>
-    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="home.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib's Hospital | Login</title>
+  <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="home.css">
+</head>
 <body>
-    <header>
-        <div class="banner">    
-            <a href="/home.html">
-                <img id="logo" src="/images/logo.png" alt="logo" />
-                <p>Suhaib Hospital</p>
-            </a>
-        </div>
-        <nav>
-          <ul id="navList">
-            <li><a href="/home.html">Home</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/doctors.html">Doctors</a></li>
-            <li><a href="/consult.html">Consult</a></li>
-          </ul>
-        </nav>
-        <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
-        <a id="logoutBtn" onClick="logOut()">
-          <p id="userNames"></p>
-          <button id="signOutBtn">Log Out</button>
-        </a>
-      </header>
-      <div class="login-container">
-        <h1>Login</h1>
-        <form>
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required>
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-          <input type="submit" value="Login">
-        </form>
-      </div>
-    
-	<script src="login.js"></script>
+  <header>
+    <div class="banner">
+      <a href="/home.html">
+        <img id="logo" src="/images/logo.png" alt="logo" />
+        <p>Suhaib Hospital</p>
+      </a>
+    </div>
+    <nav>
+      <ul id="navList">
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/doctors.html">Doctors</a></li>
+        <li><a href="/consult.html">Consult</a></li>
+      </ul>
+    </nav>
+    <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
+    <a id="logoutBtn" onClick="logOut()">
+      <p id="userNames"></p>
+      <button id="signOutBtn">Log Out</button>
+    </a>
+  </header>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+  <footer>
+    <section>
+
+      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png"
+            alt="logo" /></a> @2023 copyright Suhaib hospital</p>
+      <p>Designed by suhaib222@gmail.com</p>
+    </section>
+  </footer>
+  <script src="login.js"></script>
 </body>
 </html>

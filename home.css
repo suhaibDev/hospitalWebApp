@@ -84,8 +84,7 @@ footer {
     background-color: #1a1d21;
     color: rgb(225, 225, 225);
     text-align: center;
-    display: fixed;
-    bottom: 0;
+    width: 100%;
 }
 
 footer>section{

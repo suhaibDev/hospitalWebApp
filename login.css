@@ -49,3 +49,8 @@ input[type="submit"]:hover {
 #logoutBtn{
 	display: flex;
   }
+
+footer{
+	position: fixed !important;
+	bottom: 0;
+}
