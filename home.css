@@ -1,0 +1,266 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Header styles */
+  header {
+    color: black;
+    border-bottom: 1px solid rgb(226, 226, 226);
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+.banner>a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+}
+
+#navlist{
+  display: none;
+}
+
+  .banner > p {
+    margin: 1vh;
+  }
+
+  nav {
+    display: none;
+    justify-content: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+  
+  /* Main styles */
+  main {
+    /* padding: 2rem; */
+  }
+  
+  .services {
+    margin-top: 2rem;
+  }
+  
+  .services h3 {
+    font-size: 2rem;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .services li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Footer styles */
+footer {
+    background-color: #1a1d21;
+    color: rgb(225, 225, 225);
+    text-align: center;
+    display: fixed;
+    bottom: 0;
+}
+
+footer>section{
+  display: flex;
+  width: 100%;
+  padding: 1vh 10vw;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+#navList{
+    display: flex
+
+}
+
+#signBtn{
+  padding: 6px 20px;
+  background-color: rgb(29, 23, 110);
+  color: white;
+}
+
+#signOutBtn{
+  padding: 6px 20px;
+  background-color: rgb(255, 179, 0);
+  color: black;
+  border: none;
+}
+
+#logoutBtn{
+  display: none;
+  align-items: center;
+  gap: 20px; 
+}
+
+#loginBtn{
+  display: none;
+}
+
+.slide{
+  margin: 0;
+  width: 99vw;
+  box-sizing: border-box;
+  height: 75vh;
+  background-image: url('https://demo2.themewarrior.com/hospitalplus/wp-content/uploads/sites/22/revslider/homeslider1/slideshow-home-1.jpg')
+
+}
+
+#userNames{
+  font-weight: bold;
+  font-size: large;
+  color: green;
+  text-transform: capitalize;
+}
+
+.content{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10vh 5vw;
+}
+
+.content>p{
+  font-size: medium;
+  width: 100%;
+  line-height: 30px;
+}
+
+.department{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1vh 10vw;
+  text-align: center;
+}
+
+/* Card */
+.card-container {
+  width: 270px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card-container > section >p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: gray;
+}
+
+.card-container>section{
+  border: 1px solid gainsboro;
+  padding: 10px;
+  height: 17vh;
+}
+
+.image {
+  height: 200px;
+  background-image: url('/images/image1.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.image1 {
+  background-image: url('images/image1.jpeg');
+}
+
+.image2 {
+  background-image: url('images/image2.jpeg');
+}
+
+.image3 {
+  background-image: url('images/image3.jpeg');
+}
+
+.image4 {
+  background-image: url('images/image4.jpeg');
+}
+
+.image5 {
+  background-image: url('images/image5.jpeg');
+}
+
+.image6 {
+  background-image: url('images/image6.jpeg');
+}
+
+.image7 {
+  background-image: url('images/image7.jpeg');
+}
+
+.image8 {
+  background-image: url('images/image8.jpeg');
+}
+
+.title {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.title h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.text {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.text p {
+  margin: 0;
+  font-size: 16px;
+  color: #666666;
+}
+
+.cardBox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 10vh auto;
+}
+
+.card-container>section>h3{
+  color: #0d2e5a;
+}
