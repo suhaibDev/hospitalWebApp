@@ -1,6 +1,6 @@
 // Dummy credentials
-const dummyUsername = "M Suhaib";
-const dummyPassword = "pass123";
+const dummyUsername = "suhaib";
+const dummyPassword = "12345";
 
 // Get form and inputs
 const form = document.querySelector('form');
