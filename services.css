@@ -9,17 +9,33 @@
 
 .bannerDoc>h2{
     margin: 0;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
 }
 .contentDoc{
-    padding: 10vh 10vw;
+    padding: 20vh 5vw;
 }
-
-.doctor1{
-    background-image: url("images/doctors/doctor1.jpeg") ;
+.doctor21{
+    background-image: url("images/doctors/doctor21.jpg") ;
 }
-
-.doctor2{
-    background-image: url("images/doctors/doctor2.jpeg") ;
+.doctor22{
+    background-image: url("images/doctors/doctor22.jpg") ;
+}
+.doctor23{
+    background-image: url("images/doctors/doctor23.jpg") ;
+}
+.doctor24{
+    background-image: url("images/doctors/doctor24.jpg") ;
+}
+.doctor25{
+    background-image: url("images/doctors/doctor25.jpg") ;
+}
+.doctor26{
+    background-image: url("images/doctors/doctor26.jpg") ;
+}
+.doctor27{
+    background-image: url("images/doctors/doctor27.jpg") ;
+}
+.doctor28{
+    background-image: url("images/doctors/doctor28.jpg") ;
 }

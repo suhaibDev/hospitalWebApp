@@ -137,7 +137,7 @@ header{
 
 .slide{
   margin: 0;
-  width: 99vw;
+  width: 99wh;
   box-sizing: border-box;
   height: 75vh;
   background-image: url('images/ban1.jpeg')

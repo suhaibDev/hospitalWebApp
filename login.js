@@ -1,5 +1,5 @@
 // Dummy credentials
-const dummyUsername = " M suhaib";
+const dummyUsername = "12345";
 const dummyPassword = "12345";
 
 // Get form and inputs
