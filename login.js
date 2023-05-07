@@ -33,7 +33,7 @@ form.addEventListener('submit', (event) => {
 	if (username === dummyUsername && password === dummyPassword) {
 		// Store login status in local storage
 		localStorage.setItem('loggedIn', 'true');
-		localStorage.setItem('user', 'M Suhaib');
+		localStorage.setItem('user', 'icreem');
 		window.location.href = 'doctors.html';
 	} else {
 		alert('Invalid username or password');
