@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib's Hospital |  Doctor Appointment</title>
+  <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="consult.css">
+  <link rel="stylesheet" href="appoint.css">
+</head>
+<body>
+  <header>
+    <div class="banner">    
+        <a href="/home.html">
+            <img id="logo" src="/images/logo.png" alt="logo" />
+            <p>Suhaib Hospital</p>
+        </a>
+    </div>
+    <nav id="navList">
+      <ul >
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/doctors.html">Doctors</a></li>
+        <li><a href="/consult.html">Consult</a></li>
+        <li><a href="/appoint.html">Book Appointment</a></li>
+        <li><a href="/appointmentList.html">Current Appointments</a></li>
+      
+    </ul>
+
+    </nav>
+    <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
+    <a id="logoutBtn" onClick="logOut()">
+      <p id="userNames"></p>
+      <button id="signOutBtn">Log Out</button>
+    </a>
+  </header>
+  <main>
+    <section class="bannerDoc">
+      <h2>Book Doctor Appointment</h2>
+    </section>
+  </main>   
+  <div class="docAppointContainer">
+    <h2>Book an Appointment for General Checkup</h2>
+    <div class="docform">
+        <form id="appointment-form" onsubmit="event.preventDefault(); bookAppointment();">
+            <section>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+            </section>
+            <section>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            </section>
+            <section>
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select><br><br>
+            </section>
+            <section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            </section>
+            <section>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            </section>
+            <section>
+            <label for="doctor">Preferred Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="drsmith">Dr. Smith</option>
+                <option value="drjones">Dr. Jones</option>
+                <option value="drwilson">Dr. Wilson</option>
+            </select><br><br>
+            </section>
+            <section>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+            </section>
+            <section>
+            <label for="time">Preferred Time:</label>
+            <select id="time" name="time" required>
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <option value="11:00">11:00 AM</option>
+                <option value="14:00">02:00 PM</option>
+                <option value="15:00">03:00 PM</option>
+                <option value="16:00">04:00 PM</option>
+            </select><br><br>
+            </section>
+            <input id="submitButton" type="submit" value="Book Appointment">
+            <!-- <a href="#" > <button id="submitButton" type="submit">Book Appointment</button></a> -->
+        </form>
+    </div>
+
+ </div>
+
+  <footer>
+    <section>
+      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png" alt="logo" /></a> @2023 copyright Suhaib hospital</p>
+      <p>Designed by suhaib222@gmail.com</p>
+    </section>
+  </footer>
+  <script src="appoint.js" ></script>
+  <script src="home.js" ></script>
+</body>
+</html>

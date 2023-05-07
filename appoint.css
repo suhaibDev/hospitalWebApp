@@ -1,0 +1,64 @@
+.docAppointContainer{
+    padding: 5vh 10vw;
+    margin: 5vh 0;
+}
+
+.docform>form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 2vh 0;
+}
+
+.docform>form>section{
+    display: grid;
+}
+
+form>section>label{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+form>section>input{
+    padding: 10px;
+    width: 66%;
+    border-radius: 4px;
+}
+
+
+form>section>select{
+    padding: 10px;
+    width: 70%;
+    border-radius: 4px;
+}
+
+#submitButton{
+    height: 40px;
+    width: 40%;
+    background-color: rgb(50, 74, 50);
+    color: white;
+    margin-right: 10vw;
+}
+
+#date{
+    padding: 10px !important;
+    width: 70% !important;
+    border-radius: 4px !;
+}
+
+.docform{
+    height: auto;
+}
+
+.docform>form>section{
+    height: 80px
+}
+
+#appTable, thead, th, tr, td{
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.docList{
+    margin: 10vh;
+}
