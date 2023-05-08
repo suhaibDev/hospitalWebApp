@@ -17,15 +17,15 @@
       </a>
     </div>
     <nav id="navList">
-      <ul >
+      <ul>
         <li><a href="/home.html">Home</a></li>
         <li><a href="/services.html">Services</a></li>
         <li><a href="/doctors.html">Doctors</a></li>
         <li><a href="/consult.html">Consult</a></li>
         <li><a href="/appoint.html">Book Appointment</a></li>
         <li><a href="/appointmentList.html">Current Appointments</a></li>
-      
-    </ul>
+
+      </ul>
     </nav>
     <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
     <a id="logoutBtn" onClick="logOut()">
@@ -185,10 +185,10 @@
   <script src="home.js"></script>
   <script>
     {
-     if (localStorage.getItem('loggedIn') !== 'true') {
-       window.location.href = "/home.html"
+      if (localStorage.getItem('loggedIn') !== 'true') {
+        window.location.href = "/home.html"
+      }
     }
-   }
- </script>
+  </script>
 </body>
 </html>

@@ -10,22 +10,22 @@
 </head>
 <body>
   <header>
-    <div class="banner">    
-        <a href="/home.html">
-            <img id="logo" src="/images/logo.png" alt="logo" />
-            <p>V.K Hospital</p>
-        </a>
+    <div class="banner">
+      <a href="/home.html">
+        <img id="logo" src="/images/logo.png" alt="logo" />
+        <p>V.K Hospital</p>
+      </a>
     </div>
     <nav id="navList">
-      <ul >
+      <ul>
         <li><a href="/home.html">Home</a></li>
         <li><a href="/services.html">Services</a></li>
         <li><a href="/doctors.html">Doctors</a></li>
         <li><a href="/consult.html">Consult</a></li>
         <li><a href="/appoint.html">Book Appointment</a></li>
         <li><a href="/appointmentList.html">Current Appointments</a></li>
-      
-    </ul>
+
+      </ul>
     </nav>
     <a id="loginBtn" href="/login.html"><button id="signBtn">Login</button></a>
     <a id="logoutBtn" onClick="logOut()">
@@ -42,42 +42,46 @@
     <h3>Book your appointment</h3>
 
     <div class="formContainer">
-        <section>
-            <h2>Get in touch</h2>
-            <p>
-                This is Herman Brooks. Herman is just like the rest of us. Everyday he has to make all kinds of decisions like what to wear, whom to date and when to panic.
-            </p>
-            <p>
-                Now these decisions should be easy but if you take a look inside Herman’s head, you’ll see why he sometimes has trouble making up his mind. Sometimes they agree… usually they don’t. But the struggle is going on inside all of us and it’s all going on inside Herman’s head.
-            </p>
-            <h4>CONTACT INFO
-            </h4>
-            <a>info@hospitalplus.com</a>
-            <a>+3212345678</a>
-        </section>
-        <section>
-            <form onsubmit="consult()">
-                <label>Full Name</label>
-                <input name="fullname" id="fullname" placeholder="Enter your name"  required/>
-                <label>Email Address</label>
-                <input name="email" id="email" placeholder="Enter your email address" required />
-                <label>Contact</label>
-                <input name="contact" id="contact" placeholder="Enter your contact details" required />
-                <label>Message</label>
-                <textarea rows="6"></textarea>
-                <a href="#"> <button type="submit">Submit</button></a>
-            </form>
-        </section>
+      <section>
+        <h2>Get in touch</h2>
+        <p>
+          This is Herman Brooks. Herman is just like the rest of us. Everyday he has to make all kinds of decisions like
+          what to wear, whom to date and when to panic.
+        </p>
+        <p>
+          Now these decisions should be easy but if you take a look inside Herman’s head, you’ll see why he sometimes
+          has trouble making up his mind. Sometimes they agree… usually they don’t. But the struggle is going on inside
+          all of us and it’s all going on inside Herman’s head.
+        </p>
+        <h4>CONTACT INFO
+        </h4>
+        <a>info@hospitalplus.com</a>
+        <a>+3212345678</a>
+      </section>
+      <section>
+        <form onsubmit="consult()">
+          <label>Full Name</label>
+          <input name="fullname" id="fullname" placeholder="Enter your name" required />
+          <label>Email Address</label>
+          <input name="email" id="email" placeholder="Enter your email address" required />
+          <label>Contact</label>
+          <input name="contact" id="contact" placeholder="Enter your contact details" required />
+          <label>Message</label>
+          <textarea rows="6"></textarea>
+          <a href="#"> <button type="submit">Submit</button></a>
+        </form>
+      </section>
     </div>
 
   </div>
   <footer>
     <section>
-      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png" alt="logo" /></a> @2023 copyright V.K hospital</p>
+      <p style="display:flex; align-items: center; gap:10px"> <a href="/home.html"><img id="logo" src="/images/logo.png"
+            alt="logo" /></a> @2023 copyright V.K hospital</p>
       <p>Designed by icreem@gmail.com</p>
     </section>
   </footer>
-  <script src="consult.js" ></script>
+  <script src="consult.js"></script>
   <script src="home.js"></script>
 </body>
 </html>
