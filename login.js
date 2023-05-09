@@ -1,5 +1,5 @@
 // Dummy credentials
-const dummyUsername = "12345";
+const dummyUsername = "vcare";
 const dummyPassword = "12345";
 
 // Get form and inputs
